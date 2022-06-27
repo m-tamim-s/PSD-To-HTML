@@ -3,3 +3,4 @@ $(document).ready(function(){
     $.scrollUp();
     $('#menu').slicknav();
 });
+document.getElementById("demo1").innerHTML = "Tamim";

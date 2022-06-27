@@ -1,4 +1,8 @@
-h1{
-    font-family: 'Times New Roman', Times, serif;
+h1,h2,h3{
     text-align: center;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 3em;
+    margin-top: 3em;
 }
