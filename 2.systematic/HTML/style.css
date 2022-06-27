@@ -1,0 +1,195 @@
+/*=============================================================
+common css
+=============================================================*/
+
+body {
+    color: #666666;
+    font-family: Georgia, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.container {
+    margin-left:  auto;
+    margin-right:  auto;
+    max-width: 1140px;
+    width: 60%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*=============================================================
+top Area css
+=============================================================*/
+.header_area {
+    width: 100%;
+    clear: both;
+}
+
+#top_header_area {
+    background-color: #ba2e1f;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.inner_top_header {
+    overflow: hidden;
+}
+
+.mini_menu {
+    width: 70%;
+    float: left;
+}
+
+.mini_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.mini_menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.mini_menu ul li:after {
+    background: #fff;
+    content: "";
+    position: absolute;
+    top: 6px;
+    right: -10px;
+    height: 12px;
+    width: 10px;
+}
+
+.mini_menu ul li a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.mini_menu ul li a:hover {
+    color: #ddd;
+
+}
+
+/*=============================================================
+Search Area css
+=============================================================*/
+.Search_area {
+    width: 30%;
+    float: right;
+}
+
+.Search_area form {
+    background: #fff;
+    border-radius: 25px;
+    float: right;
+    padding: 2%;
+    max-width: 210px;
+    width: 96%;
+}
+
+.Search_area input {
+    border: 0px solid;
+    width: 75%;
+    padding: 1%;
+    float: left;
+    color: #000;
+}
+
+.Search_area input[type="submit"] {
+    background: url(img/search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 23%;
+    cursor: pointer;
+}
+
+/*=============================================================
+Main Header css
+=============================================================*/
+
+#main_header_area {
+    width: 100%;
+    clear: both;
+}
+
+.inner_header {
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.logo_area {
+    float: left;
+    width: 100%;
+    max-width: 250px;
+}
+
+.social_area {
+    float: right;
+    width: 100%;
+    max-width: 600px;
+    padding-top: 21px;
+}
+
+.social_area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.social_area ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social_area ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+.social_area ul li a i {
+    background: #333333;
+    border-radius: 50%;
+    display: block;
+    text-decoration: none;
+    width: 35px;
+    padding-top: 8px;
+    color: #fff;
+    height: 25px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.social_area ul li a:hover i {
+    background: #ba2e1f;
+}
+
+.social_area ul li a:hover i.fa-linkedin-in {
+    background: #0077B5;
+}
+
+.social_area ul li a:hover i.fa-twitter {
+    background: #1DA1F2;
+}
+
+.social_area ul li a:hover i.fa-pinterest {
+    background: #E71A21;
+}
+
+.social_area ul li a:hover i.fa-google-plus-g {
+    background: #CC4136;
+}
+
+.social_area ul li a:hover i.fa-rss {
+    background: #ee802f;
+}
