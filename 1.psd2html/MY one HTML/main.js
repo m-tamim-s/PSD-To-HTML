@@ -1,6 +1,2 @@
-$(document).ready(function(){
-    $('.slider').bxSlider();
-    $.scrollUp();
-    $('#menu').slicknav();
-});
+alert('test');
 document.getElementById("demo1").innerHTML = "Tamim";
